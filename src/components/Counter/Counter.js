@@ -12,7 +12,7 @@ class Counter extends React.Component {
     return (
       <div className="counter">
           <div><button onClick={this.incrementNum}>+</button>
-                    {this.state.number}
+                <span> {this.state.number} </span>
           <button onClick={this.decrementNum}>-</button></div>
       </div>
     );

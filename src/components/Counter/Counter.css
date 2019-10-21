@@ -7,3 +7,8 @@
     justify-content: flex-start;
     color: white;
   }
+
+.counter span {
+    padding-left: 15rem;
+    padding-right: 15rem;
+}
